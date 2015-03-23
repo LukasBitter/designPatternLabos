@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1426263826 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\bridgepattern\abstractshape.cpp
+	"abstractshape.h"
+
+1426418942 c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\bridgepattern\abstractshape.h
+	"drawinginterface.h"
+
+1426412465 c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\bridgepattern\drawinginterface.h
+
+1426412952 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\bridgepattern\circle.cpp
+	"circle.h"
+
+1426412904 c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\bridgepattern\circle.h
+	"abstractshape.h"
+
+1426257922 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\bridgepattern\drawinginterface.cpp
+	"drawinginterface.h"
+
+1426334334 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\bridgepattern\main.cpp
+	<iostream>
+	"v1drawingimplementation.h"
+	"v2drawingimplementation.h"
+	"abstractshape.h"
+	"circle.h"
+	"rectangle.h"
+
+1426412952 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\bridgepattern\rectangle.cpp
+	"rectangle.h"
+
+1426412930 c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\bridgepattern\rectangle.h
+	"abstractshape.h"
+
+1426412665 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\bridgepattern\v1drawingimplementation.cpp
+	"v1drawingimplementation.h"
+
+1426412940 c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\bridgepattern\v1drawingimplementation.h
+	"iostream"
+	"drawinginterface.h"
+	"dp1.h"
+
+1426412749 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\bridgepattern\v2drawingimplementation.cpp
+	"v2drawingimplementation.h"
+
+1426412923 c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\bridgepattern\v2drawingimplementation.h
+	"iostream"
+	"drawinginterface.h"
+	"dp2.h"
+
+1426412168 c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\bridgepattern\dp1.h
+	<iostream>
+
+1426412969 c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\bridgepattern\dp2.h
+	<iostream>
+
+1426412123 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\bridgepattern\dp1.cpp
+	"dp1.h"
+
+1426412140 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\bridgepattern\dp2.cpp
+	"dp2.h"
+

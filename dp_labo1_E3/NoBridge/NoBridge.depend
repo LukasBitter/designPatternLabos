@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1426413308 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\abstractshape.cpp
+	"abstractshape.h"
+
+1426413587 c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\abstractshape.h
+
+1426414461 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\dp1.cpp
+	"dp1.h"
+
+1426417511 c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\dp1.h
+	<iostream>
+
+1426414466 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\dp2.cpp
+	"dp2.h"
+
+1426417509 c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\dp2.h
+	<iostream>
+
+1426416693 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\main.cpp
+	<iostream>
+	"v1rectangle.h"
+	"v1circle.h"
+
+1426415894 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\v1rectangle.cpp
+	"v1rectangle.h"
+
+1426415865 c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\v1rectangle.h
+	"v1shapeimplementation.h"
+
+1426415692 c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\v1shapeimplementation.h
+	"iostream"
+	"abstractshape.h"
+	"dp1.h"
+
+1426413483 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\v1shapeimplementation.cpp
+	"v1shapeimplementation.h"
+
+1426413703 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\v2shapeimplementation.cpp
+	"v2shapeimplementation.h"
+
+1426414537 c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\v2shapeimplementation.h
+	"iostream"
+	"abstractshape.h"
+	"dp2.h"
+
+1426417124 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\v1circle.cpp
+	"v1circle.h"
+
+1426416614 c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\v1circle.h
+	"v1shapeimplementation.h"
+
+1426416900 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\v2rectangle.cpp
+	"v2rectangle.h"
+
+1426416946 c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\v2rectangle.h
+	"v2shapeimplementation.h"
+
+1426417175 source:c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\v2circle.cpp
+	"v2circle.h"
+
+1426417105 c:\users\lukas\google drive\he-arc\designpattern\labos\labo1\nobridge\v2circle.h
+	"v2shapeimplementation.h"
+
