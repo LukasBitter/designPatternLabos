@@ -16,11 +16,15 @@ SOURCES += main.cpp\
         widget.cpp \
     component.cpp \
     leaf.cpp \
-    composite.cpp
+    composite.cpp \
+    complex.cpp
 
 HEADERS  += widget.h \
     component.h \
     leaf.h \
-    composite.h
+    composite.h \
+    complex.h
+
+HEADERS  += widget.h \
 
 FORMS    += widget.ui
