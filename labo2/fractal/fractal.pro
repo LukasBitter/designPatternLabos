@@ -17,14 +17,14 @@ SOURCES += main.cpp\
     component.cpp \
     leaf.cpp \
     composite.cpp \
-    complex.cpp
+    complex.cpp \
+    fractalwidget.cpp \
+    fractal.cpp
 
 HEADERS  += widget.h \
     component.h \
     leaf.h \
     composite.h \
-    complex.h
-
-HEADERS  += widget.h \
-
-FORMS    += widget.ui
+    complex.h \
+    fractalwidget.h \
+    fractal.h

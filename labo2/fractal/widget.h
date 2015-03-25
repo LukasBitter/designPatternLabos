@@ -2,6 +2,7 @@
 #define WIDGET_H
 
 #include <QWidget>
+#include <fractalwidget.h>
 
 namespace Ui {
 class Widget;
@@ -16,7 +17,7 @@ public:
     ~Widget();
 
 private:
-    Ui::Widget *ui;
+    FractalWidget *fw;
 };
 
 #endif // WIDGET_H
