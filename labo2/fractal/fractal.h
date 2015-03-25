@@ -17,7 +17,7 @@ public:
     void createFractal(int height, int width);
 
     int getDepth();
-    bool displayDepth();
+    bool getDisplayDepth();
 private:
     NewtonFractal();
 

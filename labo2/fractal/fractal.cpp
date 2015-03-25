@@ -44,6 +44,8 @@ NewtonFractal::NewtonFractal()
     points.add(new Composite());
     points.add(new Composite());
     points.add(new Composite());
+
+    displayDepth = false;
 }
 
 NewtonFractal* NewtonFractal::getInstance()
@@ -53,6 +55,11 @@ NewtonFractal* NewtonFractal::getInstance()
         instance = new NewtonFractal();
     }
     return instance;
+}
+
+bool NewtonFractal::getDisplayDepth()
+{
+    return displayDepth;
 }
 
 Complex NewtonFractal::nextComplex(Complex z)
