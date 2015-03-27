@@ -7,18 +7,32 @@
 Widget::Widget(QWidget *parent) :
     QWidget(parent)
 {
-    this->setGeometry(400, 400, 400, 400);
-    QHBoxLayout *layout = new QHBoxLayout(this);
+    this->setGeometry(400, 400, 800, 600);
+    QHBoxLayout *mainLayout = new QHBoxLayout();
+    QVBoxLayout *rightLayout = new QVBoxLayout();
+
     fw = new FractalWidget(this);
-    layout->addWidget(fw);
+    redraw = new QPushButton("Draw", this);
+    redraw->setMaximumWidth(100);
 
-    this->setLayout(layout);
+    mainLayout->addWidget(fw);
 
-    NewtonFractal *nf = NewtonFractal::getInstance();
-    nf->createFractal(this->height(), this->width());
+    rightLayout->addWidget(redraw);
+    mainLayout->addLayout(rightLayout);
+
+    this->setLayout(mainLayout);
+
+    connect(redraw, SIGNAL(clicked()), this, SLOT(draw()));
 }
 
 Widget::~Widget()
 {
 
+}
+
+void Widget::draw()
+{
+    NewtonFractal *nf = NewtonFractal::getInstance();
+    nf->createFractal(fw->width(), fw->height());
+    fw->update();
 }

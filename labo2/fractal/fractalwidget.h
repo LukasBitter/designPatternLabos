@@ -9,8 +9,10 @@ class FractalWidget : public QWidget
     Q_OBJECT
 public:
     explicit FractalWidget(QWidget *parent = 0);
+
+    //redefinitions
     void paintEvent(QPaintEvent *);
-    void resizeEvent(QResizeEvent *);
+    void mousePressEvent(QMouseEvent *e);
 
 signals:
 

@@ -9,14 +9,14 @@
 class Leaf : public Component
 {
 public:
-    Leaf(Complex c, int d);
+    Leaf(QPoint c);
     ~Leaf();
 
-    void draw(QPainter *p, int height, int width);
+    void draw(QPainter *p);
 
 private:
-    Complex z;
-    int deep;
+    QPoint z;
+//    int deep;
 };
 
 #endif // LEAF_H

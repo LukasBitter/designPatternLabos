@@ -1,13 +1,15 @@
 #include "fractalwidget.h"
 #include <qpainter.h>
 #include <qpen.h>
-
+#include <qdebug.h>
 #include <complex.h>
+#include <QMouseEvent>
 
 FractalWidget::FractalWidget(QWidget *parent) :
     QWidget(parent)
 {
     fractal = NewtonFractal::getInstance();
+//    fractal->createFractal(this->width(), this->height());
 
     this->update();
 }
@@ -15,12 +17,11 @@ FractalWidget::FractalWidget(QWidget *parent) :
 void FractalWidget::paintEvent(QPaintEvent *)
 {
     QPainter painter(this);
-    painter.setBrush(Qt::black);
-    painter.drawRect(0,0, this->width(), this->height());
-    fractal->draw(&painter, this->height(), this->width());
+    fractal->draw(&painter);
 }
 
-void FractalWidget::resizeEvent(QResizeEvent *)
+void FractalWidget::mousePressEvent(QMouseEvent *e)
 {
-//    fractal->createFractal(this->height(), this->width());
+    fractal->zoom(e->pos(), this->width(), this->height());
+    this->update();
 }

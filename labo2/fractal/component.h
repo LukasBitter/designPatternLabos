@@ -8,8 +8,11 @@ class Component
 public:
     Component();
     virtual ~Component();
-    virtual void draw(QPainter *p, int height, int width) = 0;
+    virtual void draw(QPainter *p) = 0;
+    virtual void draw(QPainter *p, int d);
     virtual void add(Component *c);
+    virtual void add(Component *c, int d);
+    virtual void clear();
 
 protected:
 };

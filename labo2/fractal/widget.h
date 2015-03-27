@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <fractalwidget.h>
+#include <QPushButton>
 
 namespace Ui {
 class Widget;
@@ -16,8 +17,12 @@ public:
     explicit Widget(QWidget *parent = 0);
     ~Widget();
 
+public slots:
+    void draw();
+
 private:
     FractalWidget *fw;
+    QPushButton *redraw;
 };
 
 #endif // WIDGET_H

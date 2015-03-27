@@ -12,16 +12,17 @@ class NewtonFractal
 public:
     static NewtonFractal* getInstance();
 
-    void add(Complex z);
-    void draw(QPainter *p, int height, int width);
-    void createFractal(int height, int width);
+    void add(Complex z, int x, int y);
+    void draw(QPainter *p);
+    void createFractal(int width, int height);
 
-    int getDepth();
-    bool getDisplayDepth();
+    void zoom(QPoint p, int width, int height);
 private:
     NewtonFractal();
 
+    void reset();
     Complex nextComplex(Complex z);
+    void calculate(int width, int height);
 
     static NewtonFractal* instance;
 
@@ -30,7 +31,11 @@ private:
     Composite points;
 
     int depth;
-    bool displayDepth;
+
+    double xa;
+    double xb;
+    double ya;
+    double yb;
 };
 
 #endif // FRACTAL_H

@@ -11,8 +11,12 @@ class Composite : public Component
 public:
     Composite();
     void add(Component *c);
+    void add(Component *c, int depth);
     ~Composite();
-    void draw(QPainter *p, int height, int width);
+    void draw(QPainter *p);
+    void draw(QPainter *p, int depth);
+
+    void clear();
 
     Component* getComponent(int i);
 private:
