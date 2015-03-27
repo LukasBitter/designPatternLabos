@@ -10,11 +10,13 @@ void NewtonFractal::zoom(QPoint p, int width, int height)
 {
     double dx = xb - xa;
     double dy = yb - ya;
+    double zx = p.x() * (xb - xa) / (width) + xa;
+    double zy = p.y() * (yb - ya) / (height) + ya;
 
-    xa = p.x() - dx / 4;
-    xb = p.x() + dx / 4;
-    ya = p.y() - dy / 4;
-    yb = p.y() + dy / 4;
+    xa = zx - dx / 4;
+    xb = zx + dx / 4;
+    ya = zy - dy / 4;
+    yb = zy + dy / 4;
 
     calculate(width, height);
 }
