@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <fractalwidget.h>
 #include <QPushButton>
+#include <qlabel.h>
 
 namespace Ui {
 class Widget;
@@ -23,6 +24,8 @@ public slots:
 private:
     FractalWidget *fw;
     QPushButton *redraw;
+    QLabel *label;
+    QWidget *controlWidget;
 };
 
 #endif // WIDGET_H

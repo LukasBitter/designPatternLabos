@@ -10,9 +10,9 @@ class Composite : public Component
 {
 public:
     Composite();
+    ~Composite();
     void add(Component *c);
     void add(Component *c, int depth);
-    ~Composite();
     void draw(QPainter *p);
     void draw(QPainter *p, int depth);
 

@@ -13,7 +13,6 @@ public:
     virtual void add(Component *c);
     virtual void add(Component *c, int d);
     virtual void clear();
-
 protected:
 };
 

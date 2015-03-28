@@ -8,17 +8,25 @@ Widget::Widget(QWidget *parent) :
     QWidget(parent)
 {
     this->setGeometry(400, 400, 800, 600);
-    QHBoxLayout *mainLayout = new QHBoxLayout();
-    QVBoxLayout *rightLayout = new QVBoxLayout();
+    QVBoxLayout *mainLayout = new QVBoxLayout();
 
     fw = new FractalWidget(this);
     redraw = new QPushButton("Draw", this);
+    label = new QLabel("Click to zoom", this);
+
     redraw->setMaximumWidth(100);
 
     mainLayout->addWidget(fw);
 
+    controlWidget = new QWidget(this);
+    controlWidget->setFixedHeight(50);
+    QHBoxLayout *rightLayout = new QHBoxLayout(controlWidget);
+
     rightLayout->addWidget(redraw);
-    mainLayout->addLayout(rightLayout);
+    rightLayout->addWidget(label);
+
+    mainLayout->addWidget(controlWidget);
+
 
     this->setLayout(mainLayout);
 

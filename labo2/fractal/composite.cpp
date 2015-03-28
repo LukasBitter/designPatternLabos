@@ -1,7 +1,6 @@
 #include "composite.h"
 #include "leaf.h"
 #include <QListIterator>
-#include <qdebug.h>
 
 Composite::Composite()
 {
@@ -15,6 +14,7 @@ Composite::~Composite()
     }
 }
 
+//draws each leaves contained in this composite and subcomposites
 void Composite::draw(QPainter *p)
 {
     foreach (Component *c, comp)
@@ -23,6 +23,7 @@ void Composite::draw(QPainter *p)
     }
 }
 
+//draws each leaves contained in the subcomposite at the given depth
 void Composite::draw(QPainter *p, int depth)
 {
     if(!comp.empty())
@@ -48,6 +49,7 @@ void Composite::add(Component *c)
     comp.append(c);
 }
 
+//adding a component at a given depth, intermediate composites will be created if needed
 void Composite::add(Component *c, int depth)
 {
     if(comp.empty())

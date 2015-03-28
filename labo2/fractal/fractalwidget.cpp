@@ -1,7 +1,6 @@
 #include "fractalwidget.h"
 #include <qpainter.h>
 #include <qpen.h>
-#include <qdebug.h>
 #include <complex.h>
 #include <QMouseEvent>
 

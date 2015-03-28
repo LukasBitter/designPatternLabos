@@ -1,8 +1,7 @@
 #include "fractal.h"
-#include "QDebug"
 #include <QPen>
 
-#define error 5e-2
+#define error 5e-5
 
 NewtonFractal* NewtonFractal::instance = 0;
 
@@ -10,13 +9,17 @@ void NewtonFractal::zoom(QPoint p, int width, int height)
 {
     double dx = xb - xa;
     double dy = yb - ya;
-    double zx = p.x() * (xb - xa) / (width) + xa;
-    double zy = p.y() * (yb - ya) / (height) + ya;
 
-    xa = zx - dx / 4;
-    xb = zx + dx / 4;
-    ya = zy - dy / 4;
-    yb = zy + dy / 4;
+    //complex number z of the clicked point
+    double zx = p.x() * dx / (width) + xa;
+    double zy = p.y() * dy / (height) + ya;
+
+    //new range
+    int zoomFactor = 8;
+    xa = zx - dx / zoomFactor;
+    xb = zx + dx / zoomFactor;
+    ya = zy - dy / zoomFactor;
+    yb = zy + dy / zoomFactor;
 
     calculate(width, height);
 }
@@ -40,7 +43,7 @@ void NewtonFractal::calculate(int width, int height)
         double zx = x * (xb - xa) / (width) + xa;
         for (double y = 0; y < height; y += 1) {
             double zy = y * (yb - ya) / (height) + ya;
-            if(zx != 0 || zy != 0)
+            if(fabs(zx) > 5e-16 || fabs(zy) > 5e-16) //values close to zero are ignored because they make the newton serie tend to an infinite number of steps
             {
                 this->add(Complex(zx, zy), x, y);
             }
@@ -50,6 +53,8 @@ void NewtonFractal::calculate(int width, int height)
 
 NewtonFractal::NewtonFractal()
 {
+    depth = 0;
+
     //declaring the roots for comparison when calculating fractal
     roots[0] = Complex(1.0,0.0);
     roots[1] = Complex(-1.0/2.0, sqrt(3.0)/2.0);
@@ -89,19 +94,20 @@ Complex NewtonFractal::nextComplex(Complex z)
 void NewtonFractal::draw(QPainter *p)
 {
     for(int i = 0; i < depth; i++){ //drawing each layer one after an other
-        double x = (double)(depth  - i) / depth; //coloring in function of depth
-        x *= x * x; //this gives a better constrast
-
+        double depthRatio = (double)(depth  - i) / (double)depth; //darkening is function of depth
+        depthRatio *= depthRatio * depthRatio; //this gives a better constrast
+        depthRatio *= 255.0; //normalizing to RGB norm
         //painting basins of attraction separatly
-        p->setPen(QPen(QColor((int)(255.0 * x), 0, 0)));
+        p->setPen(QPen(QColor((int)depthRatio, 0, 0)));
         points.getComponent(0)->draw(p, i);
-        p->setPen(QPen(QColor(0, (int)(255.0 * x), 0)));
+        p->setPen(QPen(QColor(0, (int)depthRatio, 0)));
         points.getComponent(1)->draw(p, i);
-        p->setPen(QPen(QColor(0, 0, (int)(255.0 * x))));
+        p->setPen(QPen(QColor(0, 0, (int)depthRatio)));
         points.getComponent(2)->draw(p, i);
     }
 }
 
+//Adding the leaf corresponding to z in the composite linked to its basin of attraction, which we find with newton's method
 void NewtonFractal::add(Complex z, int x, int y)
 {
     Complex nextZ(z);
@@ -133,6 +139,5 @@ void NewtonFractal::add(Complex z, int x, int y)
     {
         depth = deep;
     }
-    if(root >= 0)
-        points.getComponent(root)->add(new Leaf(QPoint(x, y)), deep);
+    points.getComponent(root)->add(new Leaf(QPoint(x, y)), deep);
 }

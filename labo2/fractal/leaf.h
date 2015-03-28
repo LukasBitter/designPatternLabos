@@ -15,8 +15,8 @@ public:
     void draw(QPainter *p);
 
 private:
-    QPoint z;
 //    int deep;
+    QPoint z;
 };
 
 #endif // LEAF_H

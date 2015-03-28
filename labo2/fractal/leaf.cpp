@@ -1,6 +1,7 @@
 #include "leaf.h"
 #include <QPainter>
 #include <fractal.h>
+#include <qdebug.h>
 
 Leaf::Leaf(QPoint c)
 {
