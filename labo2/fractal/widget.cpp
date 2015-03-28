@@ -1,5 +1,4 @@
 #include "widget.h"
-#include "ui_widget.h"
 #include <fractalwidget.h>
 #include <fractal.h>
 #include <QHBoxLayout>
@@ -12,7 +11,7 @@ Widget::Widget(QWidget *parent) :
 
     fw = new FractalWidget(this);
     redraw = new QPushButton("Draw", this);
-    label = new QLabel("Click to zoom", this);
+    label = new QLabel("Click to zoom. Drawing and zooming might take several seconds to load !", this);
 
     redraw->setMaximumWidth(100);
 
