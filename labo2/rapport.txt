@@ -1,0 +1,27 @@
+Design pattern labo 2, 28.03.2015.
+
+Auteurs
+Horia Mut / Quentin Jeanmonod / Lukas Bitter
+
+But
+Appliquer les singleton et composite patterns à un programme lié à une fractale.
+
+Description
+Le programme affiche une fractale de Newton. L'utilisateur peut utiliser le bouton Draw pour afficher la fractale et cliquer sur l'écran pour zoomer.
+
+Fractale de Newton
+http://fr.wikipedia.org/wiki/Fractale_de_Newton
+
+En applicant la méthode itérative de Newton sur un polynôme p(z), où z est un nombre complexe, on peut associer chaque nombre du plan complexe à une racine du polynôme. Les ensembles de nombres reliant chaque racine sont appelés bassins d'attraction.
+La fractale classique de Newton s'effectue sur le polynôme p(z) = z3 - 1, dont les racines sont {1, -1/2 + i * racine(3)/2, -1/2 + i * racine(3)/2}. Il y a donc 3 bassins d'attraction à cette fractale, que le programme affiche de couleurs différentes.
+Pour chaque nombre complexe, il est possible de compter le nombre d'itérations nécessaires afin de converger vers une racine. Le programme assombrit les nombres complexes demandant le plus d'itérations.
+
+Utilisation des design patterns
+Singleton
+La classe NewtonFractal, contenant tous les points du plan affichés à l'écran ainsi que le nombre d'itérations requises pour atteindre une racine (profondeur de ce point), a été codée en singleton afin de garantir l'unicité en mémoire de toutes ces informations.
+
+Composite
+La classe NewtonFractal comporte un composite principal contenant 3 composites, qui sont les 3 bassins d'attraction du polynôme.
+Chaque composite dans chaque bassin d'attraction comporte un sous-composite, qui lui même contient un sous-composite, et ainsi de suite. De cette manière, il y a un composite à chaque profondeur.
+Les points sont placés dans les composites correspondants à leurs profondeurs.
+Cette manière d'enregistrer les points permet d'afficher la profondeur des points sans l'enregistrer en mémoire et donc économise des ressources.
