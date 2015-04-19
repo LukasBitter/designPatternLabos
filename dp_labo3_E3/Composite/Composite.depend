@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1429285897 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\composite.cpp
+	"Composite.h"
+	<iostream>
+
+1429285251 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\composite.h
+	"Component.h"
+	<vector>
+
+1429285556 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\component.h
+	<string>
+
