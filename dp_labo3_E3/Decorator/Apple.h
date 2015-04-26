@@ -7,8 +7,8 @@ class CApple :
 	public CLeaf
 {
 public:
-	CApple() { Name = "Apple"; HasSeed = true; }
-	~CApple() {};
-	void Print(){ std::cout << Name; }
-	bool IsWithSeed() { return HasSeed; }
+	CApple();
+	~CApple();
+	void Print();
+	bool IsWithSeed();
 };

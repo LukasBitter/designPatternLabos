@@ -1,3 +1,5 @@
+/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+
 #include "Order.h"
 #include "StateWaiting.h"
 

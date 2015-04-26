@@ -2,6 +2,7 @@
 
 #pragma once
 #include "Component.h"
+#include <iostream>
 
 class CLeaf :
 	public CComponent

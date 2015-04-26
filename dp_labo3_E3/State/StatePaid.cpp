@@ -1,3 +1,5 @@
+/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+
 #include "StatePaid.h"
 #include "StateSent.h"
 #include "Order.h"
