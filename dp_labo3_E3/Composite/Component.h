@@ -1,3 +1,5 @@
+/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+
 #pragma once
 
 #include <string>

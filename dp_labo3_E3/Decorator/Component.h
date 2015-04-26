@@ -1,5 +1,6 @@
-#pragma once
+/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
 
+#pragma once
 #include <string>
 
 class CComponent

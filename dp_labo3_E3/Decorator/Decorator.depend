@@ -1,41 +1,64 @@
 # depslib dependency file v1.0
-1429285897 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\composite.cpp
+1430051989 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\composite.cpp
 	"Composite.h"
 	<iostream>
 
-1429285251 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\composite.h
+1430052075 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\composite.h
 	"Component.h"
 	<vector>
 
-1429285556 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\component.h
+1430052075 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\component.h
 	<string>
 
-1429292069 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decorator.cpp
+1430051989 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decorator.cpp
 	"Decorator.h"
 	<iostream>
 	"Leaf.h"
 
-1429287773 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decorator.h
+1430052075 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decorator.h
 	"Component.h"
 
-1429285604 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\leaf.h
+1430052075 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\leaf.h
 	"Component.h"
 
-1429292138 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decoratorequals.cpp
+1430051989 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decoratorequals.cpp
 	"DecoratorEquals.h"
 
-1429287974 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decoratorequals.h
+1430052075 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decoratorequals.h
 	"Decorator.h"
 
-1429288019 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decoratorhash.cpp
+1430051989 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decoratorhash.cpp
 	"DecoratorHash.h"
 
-1429287970 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decoratorhash.h
+1430052075 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decoratorhash.h
 	"Decorator.h"
 
-1429287734 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decoratorstar.cpp
+1430051989 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decoratorstar.cpp
 	"DecoratorStar.h"
 
-1429287641 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decoratorstar.h
+1430052075 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decoratorstar.h
 	"Decorator.h"
+
+1430051960 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\main.cpp
+	<iostream>
+	<cstdlib>
+	"Component.h"
+	"Composite.h"
+	"Leaf.h"
+	"Apple.h"
+	"Banana.h"
+	"Strawberry.h"
+	"Decorator.h"
+	"DecoratorEquals.h"
+	"DecoratorHash.h"
+	"DecoratorStar.h"
+
+1430052075 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\apple.h
+	"Leaf.h"
+
+1430052075 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\banana.h
+	"Leaf.h"
+
+1430052075 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\strawberry.h
+	"Leaf.h"
 

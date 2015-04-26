@@ -1,3 +1,5 @@
+/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+
 #include <iostream>
 #include <cstdlib>
 #include "Component.h"
