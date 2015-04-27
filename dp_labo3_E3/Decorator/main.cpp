@@ -18,11 +18,6 @@
 
 using namespace std;
 
-void clear()
-{
-	cout << string(50, '\n');
-}
-
 int ChooseFruit()
 {
 	int Choice;

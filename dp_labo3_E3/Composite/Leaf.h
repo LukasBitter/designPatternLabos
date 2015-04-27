@@ -4,8 +4,8 @@
 #include "Component.h"
 #include <iostream>
 
-/**
-* Leaf componenet class. Acts as a fulltime component while beeing specialized.
+/** \brief
+* Abstract Leaf component class. Acts as a fulltime component while beeing specialized.
 */
 class CLeaf :
     public CComponent

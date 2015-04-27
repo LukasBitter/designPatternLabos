@@ -13,7 +13,7 @@ public:
 	virtual ~CDecorator();
 
 	void Print();
-	bool IsWithSeed() { return DecoratedComponent->IsWithSeed(); }
+	bool IsWithSeed();
 
 private:
 	CComponent* DecoratedComponent;

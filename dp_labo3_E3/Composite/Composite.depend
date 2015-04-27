@@ -1,16 +1,16 @@
 # depslib dependency file v1.0
-1429285897 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\composite.cpp
+1430051870 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\composite.cpp
 	"Composite.h"
 	<iostream>
 
-1429285251 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\composite.h
+1430144755 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\composite.h
 	"Component.h"
 	<vector>
 
-1429285556 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\component.h
+1430144348 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\component.h
 	<string>
 
-1429295951 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\main.cpp
+1430051870 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\main.cpp
 	<iostream>
 	<cstdlib>
 	"Component.h"
@@ -20,16 +20,25 @@
 	"Banana.h"
 	"Strawberry.h"
 
-1430051424 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\leaf.h
+1430051870 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\leaf.h
 	"Component.h"
 	<iostream>
 
-1430051338 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\apple.h
+1430051870 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\apple.h
 	"Leaf.h"
 
-1429285641 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\banana.h
+1430051870 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\banana.h
 	"Leaf.h"
 
-1430051553 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\strawberry.h
+1430051870 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\strawberry.h
 	"Leaf.h"
+
+1430051870 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\apple.cpp
+	"Apple.h"
+
+1430051867 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\banana.cpp
+	"Banana.h"
+
+1430051870 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\strawberry.cpp
+	"Strawberry.h"
 

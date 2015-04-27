@@ -12,11 +12,6 @@
 
 using namespace std;
 
-void clear()
-{
-	cout << string(50, '\n');
-}
-
 int ChooseFruit()
 {
 	int Choice;
@@ -28,7 +23,7 @@ int ChooseFruit()
 			<< "3) Add an apple (no mac)." << endl
 			<< "4) Add a basket." << endl
 			<< "5) Stop adding to basket," << endl
-			<< "6) D-D-D-D-D-D-Drop the faith!" << endl << endl
+			<< "6) D-D-D-D-D-D-Drop the faith! Run away with the basket. (Quit)" << endl << endl
 			<< "Your choice : ";
 		cin >> Choice;
 	} while (Choice < 1 || Choice > 6);
