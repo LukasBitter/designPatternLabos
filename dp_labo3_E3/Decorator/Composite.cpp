@@ -21,7 +21,7 @@ CComposite::~CComposite()
 		// Delete the element pointed to by the iterator.
 		delete *CollectionIterator;
 	}
-
+    // Clear the Collection as it should now be empty.
 	Collection.clear();
 }
 
@@ -37,6 +37,7 @@ void CComposite::Print()
 	for (; CollectionIterator != Collection.end(); CollectionIterator++)
 	{
 		(*CollectionIterator)->Print();
+		// If we reached the end of the collection, don't show the comma.
 		if (CollectionIterator + 1 != Collection.end())
 		{
 			cout << " , ";
@@ -48,10 +49,12 @@ void CComposite::Print()
 bool CComposite::IsWithSeed()
 {
 	vector<CComponent*>::iterator CollectionIterator = Collection.begin();
+	// Iterate over the collection to determine if any of it's components has seeds.
 	for (; CollectionIterator != Collection.end(); CollectionIterator++)
 	{
 		if ((*CollectionIterator)->IsWithSeed())
 		{
+			// Found a component with seeds, stop the iteration.
 			return true;
 		}
 	}

@@ -1,24 +1,24 @@
 # depslib dependency file v1.0
-1430051989 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\composite.cpp
+1430145276 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\composite.cpp
 	"Composite.h"
 	<iostream>
 
-1430052075 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\composite.h
+1430144962 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\composite.h
 	"Component.h"
 	<vector>
 
-1430052075 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\component.h
+1430144348 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\component.h
 	<string>
 
-1430051989 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decorator.cpp
+1430145733 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decorator.cpp
 	"Decorator.h"
 	<iostream>
 	"Leaf.h"
 
-1430052075 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decorator.h
+1430147476 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decorator.h
 	"Component.h"
 
-1430052453 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\leaf.h
+1430147053 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\leaf.h
 	"Component.h"
 	<iostream>
 
@@ -40,7 +40,7 @@
 1430052075 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\decoratorstar.h
 	"Decorator.h"
 
-1430051960 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\main.cpp
+1430146183 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\main.cpp
 	<iostream>
 	<cstdlib>
 	"Component.h"
@@ -62,4 +62,13 @@
 
 1430052397 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\strawberry.h
 	"Leaf.h"
+
+1430051870 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\apple.cpp
+	"Apple.h"
+
+1430051867 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\banana.cpp
+	"Banana.h"
+
+1430051870 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\decorator\strawberry.cpp
+	"Strawberry.h"
 

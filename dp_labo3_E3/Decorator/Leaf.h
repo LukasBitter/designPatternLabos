@@ -4,10 +4,14 @@
 #include "Component.h"
 #include <iostream>
 
+/** \brief
+* Abstract Leaf component class. Acts as a fulltime component while beeing specialized.
+* Not to be used directly.
+*/
 class CLeaf :
-	public CComponent
+    public CComponent
 {
 public:
-	CLeaf() {};
-	virtual ~CLeaf() {};
+    //CLeaf() {};
+    virtual ~CLeaf() {};
 };

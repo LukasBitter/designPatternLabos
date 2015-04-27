@@ -29,7 +29,8 @@ int ChooseFruit()
 			<< "3) Add an apple (no mac)." << endl
 			<< "4) Add a basket." << endl
 			<< "5) Stop adding to basket," << endl
-			<< "6) D-D-D-D-D-D-Drop the faith!" << endl << endl
+			<< "6) D-D-D-D-D-D-Drop the faith! Run away with the basket. (Quit)" << endl
+			<< endl
 			<< "Your choice : ";
 		cin >> Choice;
 	} while (Choice < 1 || Choice > 6);
@@ -38,7 +39,7 @@ int ChooseFruit()
 
 void PrintBasket(CComposite* FruitBasket)
 {
-	cout << "\n\n\nContents of DA Groot BASKET (case):" << endl;
+	cout << endl << endl << endl << "Contents of DA Groot BASKET (case):" << endl;
 	FruitBasket->Print();
 	cout << endl << "Oh, are there any Seeds in them fruits? : " << boolalpha << FruitBasket->IsWithSeed() << endl << endl;
 }
@@ -51,7 +52,8 @@ void DecorateFruit(CComponent*& fruit)
 		Choice = 0;
 		do
 		{
-			cout << "Decoration menu :" << endl
+			cout << endl
+                << "Decoration menu :" << endl
 				<< "1) Decorate with \"=\"." << endl
 				<< "2) Decorate with \"#\"." << endl
 				<< "3) Decorate with \"*\"." << endl
