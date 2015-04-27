@@ -21,7 +21,7 @@ public:
 	CDecorator(CComponent* ComponentToDecorate);
 
     /** \brief
-     * Virtual destructor of the base Decorator. Deletes the decorated component.
+     * Virtual destructor of the base class Decorator. Deletes the decorated component.
      */
 	virtual ~CDecorator();
 
