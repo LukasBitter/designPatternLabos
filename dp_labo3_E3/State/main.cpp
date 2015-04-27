@@ -10,21 +10,21 @@ using namespace std;
 
 int main()
 {
-	COrder c;
-	char choix = 0;
-	while (choix != 'q')
-	{
-		cout << "Actual state : " << endl;
-		c.ProcessOrder();
+    COrder* Order = new COrder();
+    char Choice = 0;
+    while (Choice != 'q')
+    {
+        cout << endl << "Actual state : ";
+        Order->ProcessOrder();
 
-		cout << endl <<
-			"Possible actions :\n" <<
-			"Press any key : Next state.\n" <<
-			"q : Quit."
-			<< endl;
-		cout << "Your choice : ";
-		cin >> choix;
-	}
-
-	return 0;
+        cout << endl <<
+             "Possible actions :\n" <<
+             " - Press any key : Process order.\n" <<
+             " - 'q' : Quit."
+             << endl;
+        cout << "Your choice : ";
+        cin >> Choice;
+    }
+    delete Order;
+    return 0;
 }

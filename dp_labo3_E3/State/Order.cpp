@@ -2,8 +2,10 @@
 
 #include "Order.h"
 #include "StateWaiting.h"
+#include <iostream>
 
-COrder::COrder() : State(new CStateWaiting())
+COrder::COrder()
+: State(new CStateWaiting())
 {
 }
 

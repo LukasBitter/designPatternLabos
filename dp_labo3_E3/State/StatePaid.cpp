@@ -8,6 +8,7 @@
 
 void CStatePaid::ProcessOrder(COrder* Order)
 {
-	std::cout << "<<Paid>> : Order has been paid." << std::endl;
-	Order->setState(new CStateSent());
+    std::cout << "<<Paid>> : Order has been paid." << std::endl;
+    // Set the new State and destroy the old one.
+    Order->setState(new CStateSent());
 }

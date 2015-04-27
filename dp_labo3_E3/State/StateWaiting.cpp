@@ -9,5 +9,6 @@
 void CStateWaiting::ProcessOrder(COrder* Order)
 {
 	std::cout << "<<Waiting>> : Nothing to show." << std::endl;
+    // Set the new State and destroy the old one.
 	Order->setState(new CStatePaid());
 }

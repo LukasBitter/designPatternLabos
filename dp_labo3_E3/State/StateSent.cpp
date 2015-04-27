@@ -8,4 +8,5 @@
 void CStateSent::ProcessOrder(COrder* Order)
 {
 	std::cout << "<<Sent>> : The order has been sent." << std::endl;
+	// Final state.
 }
