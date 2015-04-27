@@ -10,3 +10,26 @@
 1429285556 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\component.h
 	<string>
 
+1429295951 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\main.cpp
+	<iostream>
+	<cstdlib>
+	"Component.h"
+	"Composite.h"
+	"Leaf.h"
+	"Apple.h"
+	"Banana.h"
+	"Strawberry.h"
+
+1430051424 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\leaf.h
+	"Component.h"
+	<iostream>
+
+1430051338 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\apple.h
+	"Leaf.h"
+
+1429285641 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\banana.h
+	"Leaf.h"
+
+1430051553 c:\development\projects\designpatterns\designpatternlabos\dp_labo3_e3\composite\strawberry.h
+	"Leaf.h"
+

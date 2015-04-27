@@ -32,7 +32,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Apple.cpp" />
 		<Unit filename="Apple.h" />
+		<Unit filename="Banana.cpp" />
 		<Unit filename="Banana.h" />
 		<Unit filename="Component.h" />
 		<Unit filename="Composite.cpp" />
@@ -46,6 +48,7 @@
 		<Unit filename="DecoratorStar.cpp" />
 		<Unit filename="DecoratorStar.h" />
 		<Unit filename="Leaf.h" />
+		<Unit filename="Strawberry.cpp" />
 		<Unit filename="Strawberry.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>

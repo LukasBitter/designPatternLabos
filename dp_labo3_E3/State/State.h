@@ -1,3 +1,5 @@
+/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+
 #pragma once
 
 // Forward declaration of COrder class, otherwise dual inclusion of headers that provoque Linker error.

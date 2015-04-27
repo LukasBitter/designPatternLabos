@@ -1,3 +1,5 @@
+/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+
 #pragma once
 #include "Component.h"
 #include <vector>
@@ -15,5 +17,6 @@ public:
 	bool IsWithSeed();
 
 private:
+    // Contains the collection of components of this composite.
 	std::vector<CComponent*> Collection;
 };

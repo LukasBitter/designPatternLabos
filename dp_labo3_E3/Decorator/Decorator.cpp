@@ -1,3 +1,5 @@
+/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+
 #include "Decorator.h"
 #include <iostream>
 #include "Leaf.h"
