@@ -1,3 +1,5 @@
+/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+
 #include "composite.h"
 #include "leaf.h"
 #include <QListIterator>

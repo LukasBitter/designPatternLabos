@@ -1,3 +1,5 @@
+/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+
 #ifndef FRACTAL_H
 #define FRACTAL_H
 

@@ -1,3 +1,5 @@
+/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+
 #include "fractalwidget.h"
 #include <qpainter.h>
 #include <qpen.h>

@@ -1,3 +1,5 @@
+/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+
 #include "leaf.h"
 #include <QPainter>
 #include <fractal.h>

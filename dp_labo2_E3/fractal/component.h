@@ -1,3 +1,5 @@
+/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+
 #ifndef COMPONENT_H
 #define COMPONENT_H
 

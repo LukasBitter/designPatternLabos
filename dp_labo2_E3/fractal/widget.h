@@ -1,3 +1,5 @@
+/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+
 #ifndef WIDGET_H
 #define WIDGET_H
 

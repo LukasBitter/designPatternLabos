@@ -1,3 +1,5 @@
+/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+
 #include "complex.h"
 
 Complex::Complex(double Real /*= 0*/,double Imaginary /*= 0*/)

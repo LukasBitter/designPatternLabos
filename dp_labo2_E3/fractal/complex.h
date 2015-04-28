@@ -1,3 +1,5 @@
+/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+
 #ifndef COMPLEX_H
 #define COMPLEX_H
 

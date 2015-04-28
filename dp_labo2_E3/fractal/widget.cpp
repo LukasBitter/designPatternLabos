@@ -1,3 +1,5 @@
+/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+
 #include "widget.h"
 #include <fractalwidget.h>
 #include <fractal.h>
