@@ -1,4 +1,10 @@
-/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+/**
+    Complex Class - Description File
+    Purpose: This class is used to implement a widget.
+
+    @author Equipe 3 (Bitter Lukas, Horia Mut, Quentin Jeanmonod)
+    @date 2015-04-29
+*/
 
 #ifndef WIDGET_H
 #define WIDGET_H

@@ -1,3 +1,11 @@
+/**
+    FractalWidget Class - Description File
+    Purpose: This class is used to implement the paint methods for the Fractal class.
+
+    @author Equipe 3 (Bitter Lukas, Horia Mut, Quentin Jeanmonod)
+    @date 2015-04-29
+*/
+
 #ifndef FRACTALWIDGET_H
 #define FRACTALWIDGET_H
 

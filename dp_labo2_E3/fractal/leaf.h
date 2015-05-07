@@ -1,4 +1,10 @@
-/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+/**
+    Leaf Class - Description File
+    Purpose: This class is used to implement leaf of a component.
+
+    @author Equipe 3 (Bitter Lukas, Horia Mut, Quentin Jeanmonod)
+    @date 2015-04-29
+*/
 
 #ifndef LEAF_H
 #define LEAF_H
@@ -17,7 +23,6 @@ public:
     void draw(QPainter *p);
 
 private:
-//    int deep;
     QPoint z;
 };
 

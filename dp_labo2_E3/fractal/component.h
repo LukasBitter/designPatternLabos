@@ -1,4 +1,10 @@
-/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+/**
+    Component Class - Description File
+    Purpose: This class is used to implement component.
+
+    @author Equipe 3 (Bitter Lukas, Horia Mut, Quentin Jeanmonod)
+    @date 2015-04-29
+*/
 
 #ifndef COMPONENT_H
 #define COMPONENT_H

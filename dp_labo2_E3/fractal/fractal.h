@@ -1,4 +1,10 @@
-/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+/**
+    Fractal Class - Description File
+    Purpose: This class is used to implement a fractal drawing.
+
+    @author Equipe 3 (Bitter Lukas, Horia Mut, Quentin Jeanmonod)
+    @date 2015-04-29
+*/
 
 #ifndef FRACTAL_H
 #define FRACTAL_H

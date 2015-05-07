@@ -1,4 +1,10 @@
-/** Authors: Horia Mut, Quentin Jeanmonod, Lukas Bitter */
+/**
+    Composite Class - Implementation File
+    Purpose: This class is used to implement a composite which manages a list of components.
+
+    @author Equipe 3 (Bitter Lukas, Horia Mut, Quentin Jeanmonod)
+    @date 2015-04-29
+*/
 
 #include "composite.h"
 #include "leaf.h"
