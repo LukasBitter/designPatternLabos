@@ -1,0 +1,148 @@
+# depslib dependency file v1.0
+1434296959 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\abstractfactory.cpp
+	"AbstractFactory.h"
+	"Includes.h"
+	<iostream>
+
+1434290608 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\abstractfactory.h
+	"MealMenu.h"
+	"Enums.h"
+
+1434296292 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\mealmenu.h
+	<vector>
+	"Enums.h"
+	"Product.h"
+
+1434296915 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\enums.h
+
+1434294440 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\product.h
+	"Enums.h"
+
+1434293239 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\includes.h
+	"Product.h"
+	"Legume.h"
+	"LegumeCuisson.h"
+	"LegumePotage.h"
+	"LegumeSalade.h"
+	"LegumeVapeur.h"
+	"Herbe.h"
+	"HerbeCuisson.h"
+	"HerbePotage.h"
+	"HerbeSalade.h"
+	"HerbeVapeur.h"
+	"Huile.h"
+	"HuileCuisson.h"
+	"HuilePotage.h"
+	"HuileVapeur.h"
+	"HuileSalade.h"
+
+1434295500 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\legume.h
+	"Product.h"
+	<string>
+
+1434295462 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\legumecuisson.h
+	"Legume.h"
+	"Enums.h"
+
+1434295462 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\legumepotage.h
+	"Legume.h"
+	"Enums.h"
+
+1434295462 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\legumesalade.h
+	"Legume.h"
+	"Enums.h"
+
+1434295461 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\legumevapeur.h
+	"Legume.h"
+	"Enums.h"
+
+1434295527 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\herbe.h
+	"Product.h"
+	<string>
+
+1434295421 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\herbecuisson.h
+	"Herbe.h"
+
+1434295463 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\herbepotage.h
+	"Herbe.h"
+
+1434295463 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\herbesalade.h
+	"Herbe.h"
+
+1434295463 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\herbevapeur.h
+	"Herbe.h"
+
+1434295525 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\huile.h
+	"Product.h"
+	<string>
+
+1434295463 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\huilecuisson.h
+	"Huile.h"
+
+1434295462 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\huilepotage.h
+	"Huile.h"
+
+1434295462 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\huilevapeur.h
+	"Huile.h"
+
+1434295462 c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\huilesalade.h
+	"Huile.h"
+
+1434295574 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\herbe.cpp
+	"Herbe.h"
+	<iostream>
+
+1434296965 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\herbecuisson.cpp
+	"HerbeCuisson.h"
+
+1434296970 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\herbepotage.cpp
+	"HerbePotage.h"
+
+1434296973 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\herbesalade.cpp
+	"HerbeSalade.h"
+
+1434296977 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\herbevapeur.cpp
+	"HerbeVapeur.h"
+
+1434295603 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\huile.cpp
+	"Huile.h"
+	<iostream>
+
+1434296981 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\huilecuisson.cpp
+	"HuileCuisson.h"
+
+1434296985 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\huilepotage.cpp
+	"HuilePotage.h"
+
+1434296989 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\huilesalade.cpp
+	"HuileSalade.h"
+
+1434296992 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\huilevapeur.cpp
+	"HuileVapeur.h"
+
+1434295612 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\legume.cpp
+	"Legume.h"
+	<iostream>
+
+1434296996 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\legumecuisson.cpp
+	"LegumeCuisson.h"
+	<iostream>
+
+1434297001 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\legumepotage.cpp
+	"LegumePotage.h"
+	<iostream>
+
+1434297005 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\legumesalade.cpp
+	"LegumeSalade.h"
+	<iostream>
+
+1434297009 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\legumevapeur.cpp
+	"LegumeVapeur.h"
+
+1434297030 source:c:\development\projects\designpatterns\designpatternlabos\dp_labo4_e3\abstractfactory\main.cpp
+	<iostream>
+	"Enums.h"
+	"AbstractFactory.h"
+	"MealMenu.h"
+	<iostream>
+
