@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AbstractFactory" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/AbstractFactory" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/AbstractFactory" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AbstractFactory.cpp" />
+		<Unit filename="AbstractFactory.h" />
+		<Unit filename="Enums.h" />
+		<Unit filename="Herbe.cpp" />
+		<Unit filename="Herbe.h" />
+		<Unit filename="HerbeCuisson.cpp" />
+		<Unit filename="HerbeCuisson.h" />
+		<Unit filename="HerbePotage.cpp" />
+		<Unit filename="HerbePotage.h" />
+		<Unit filename="HerbeSalade.cpp" />
+		<Unit filename="HerbeSalade.h" />
+		<Unit filename="HerbeVapeur.cpp" />
+		<Unit filename="HerbeVapeur.h" />
+		<Unit filename="Huile.cpp" />
+		<Unit filename="Huile.h" />
+		<Unit filename="HuileCuisson.cpp" />
+		<Unit filename="HuileCuisson.h" />
+		<Unit filename="HuilePotage.cpp" />
+		<Unit filename="HuilePotage.h" />
+		<Unit filename="HuileSalade.cpp" />
+		<Unit filename="HuileSalade.h" />
+		<Unit filename="HuileVapeur.cpp" />
+		<Unit filename="HuileVapeur.h" />
+		<Unit filename="Includes.h" />
+		<Unit filename="Legume.cpp" />
+		<Unit filename="Legume.h" />
+		<Unit filename="LegumeCuisson.cpp" />
+		<Unit filename="LegumeCuisson.h" />
+		<Unit filename="LegumePotage.cpp" />
+		<Unit filename="LegumePotage.h" />
+		<Unit filename="LegumeSalade.cpp" />
+		<Unit filename="LegumeSalade.h" />
+		<Unit filename="LegumeVapeur.cpp" />
+		<Unit filename="LegumeVapeur.h" />
+		<Unit filename="MealMenu.cpp" />
+		<Unit filename="MealMenu.h" />
+		<Unit filename="Product.cpp" />
+		<Unit filename="Product.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
