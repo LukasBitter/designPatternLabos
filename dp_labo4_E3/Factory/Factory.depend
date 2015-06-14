@@ -1,0 +1,74 @@
+# depslib dependency file v1.0
+1434307288 source:c:\users\quentin\documents\git\designpattern\designpatternlabos\dp_labo4_e3\factory\factory.cpp
+	"Factory.h"
+	"Includes.h"
+	<iostream>
+
+1434307303 c:\users\quentin\documents\git\designpattern\designpatternlabos\dp_labo4_e3\factory\factory.h
+	"MealMenu.h"
+	"Enums.h"
+
+1434305269 c:\users\quentin\documents\git\designpattern\designpatternlabos\dp_labo4_e3\factory\mealmenu.h
+	<vector>
+	"Enums.h"
+	"Product.h"
+
+1434305269 c:\users\quentin\documents\git\designpattern\designpatternlabos\dp_labo4_e3\factory\enums.h
+
+1434305269 c:\users\quentin\documents\git\designpattern\designpatternlabos\dp_labo4_e3\factory\product.h
+	"Enums.h"
+
+1434307306 c:\users\quentin\documents\git\designpattern\designpatternlabos\dp_labo4_e3\factory\includes.h
+	"Product.h"
+	"Legume.h"
+	"LegumeCuisson.h"
+	"LegumePotage.h"
+	"LegumeSalade.h"
+	"LegumeVapeur.h"
+
+1434305269 c:\users\quentin\documents\git\designpattern\designpatternlabos\dp_labo4_e3\factory\legume.h
+	"Product.h"
+	<string>
+
+1434305269 c:\users\quentin\documents\git\designpattern\designpatternlabos\dp_labo4_e3\factory\legumecuisson.h
+	"Legume.h"
+	"Enums.h"
+
+1434305269 c:\users\quentin\documents\git\designpattern\designpatternlabos\dp_labo4_e3\factory\legumepotage.h
+	"Legume.h"
+	"Enums.h"
+
+1434305269 c:\users\quentin\documents\git\designpattern\designpatternlabos\dp_labo4_e3\factory\legumesalade.h
+	"Legume.h"
+	"Enums.h"
+
+1434305269 c:\users\quentin\documents\git\designpattern\designpatternlabos\dp_labo4_e3\factory\legumevapeur.h
+	"Legume.h"
+	"Enums.h"
+
+1434305269 source:c:\users\quentin\documents\git\designpattern\designpatternlabos\dp_labo4_e3\factory\legume.cpp
+	"Legume.h"
+	<iostream>
+
+1434305269 source:c:\users\quentin\documents\git\designpattern\designpatternlabos\dp_labo4_e3\factory\legumecuisson.cpp
+	"LegumeCuisson.h"
+	<iostream>
+
+1434305269 source:c:\users\quentin\documents\git\designpattern\designpatternlabos\dp_labo4_e3\factory\legumepotage.cpp
+	"LegumePotage.h"
+	<iostream>
+
+1434305269 source:c:\users\quentin\documents\git\designpattern\designpatternlabos\dp_labo4_e3\factory\legumesalade.cpp
+	"LegumeSalade.h"
+	<iostream>
+
+1434305269 source:c:\users\quentin\documents\git\designpattern\designpatternlabos\dp_labo4_e3\factory\legumevapeur.cpp
+	"LegumeVapeur.h"
+
+1434307399 source:c:\users\quentin\documents\git\designpattern\designpatternlabos\dp_labo4_e3\factory\main.cpp
+	<iostream>
+	"Enums.h"
+	"Factory.h"
+	"MealMenu.h"
+	<iostream>
+
